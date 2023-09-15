@@ -1,0 +1,11 @@
+.tiles {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.photo > img {
+    object-fit: cover;
+    width: 100%;
+}
