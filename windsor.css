@@ -1,5 +1,28 @@
-* {
-    padding: 0;
-    margin: 0;
+.nav-link.menu-hover-effects {
+    transition: color .5s ease-in-out;
+
+    a, a:link, a:visited, a:link:active, a:visited:active {
+        color: inherit;
+        transition: color, transform .5s ease-in-out;
+    }
 }
+
+.Windsor
+{
+background-image: url("images/Windsor Dining Court.jpg");
+
+    min-height: 30vh;
+    min-width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.flex container
+{
+    display: flex;
+}
+
+
 
